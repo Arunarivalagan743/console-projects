@@ -9,10 +9,10 @@ public class Passenger {
     private Date date;
 
 
-    public Passenger(String name, String destination, Date date) {
-        this.name = name;
-        this.destination = destination;
-        this.date = date;
+    public Passenger(String newname, String newdestination, Date newdate) {
+        name = newname;
+       destination = newdestination;
+       date = newdate;
     }
 
 
