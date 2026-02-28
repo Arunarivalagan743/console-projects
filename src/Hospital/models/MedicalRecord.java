@@ -15,6 +15,8 @@ public class MedicalRecord {
         this.diagnosis = diagnosis;
     }
 
+
+
     public int getRecordNo() {
         return recordNo;
     }

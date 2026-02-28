@@ -15,4 +15,24 @@ public class Bill {
     public double getAmount() {
         return amount;
     }
+
+    public int getBillNo() {
+        return billNo;
+    }
+
+    public void setBillNo(int billNo) {
+        this.billNo = billNo;
+    }
+
+    public int getPatientId() {
+        return patientId;
+    }
+
+    public void setPatientId(int patientId) {
+        this.patientId = patientId;
+    }
+
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
 }
