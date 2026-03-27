@@ -5,13 +5,13 @@ import HabitTracking.Model.*;
 
 import java.util.*;
 
-public class RewardService {
+public class RewardServiceStrategy  {
 
     private List<Reward> rewards = new ArrayList<>();
     private List<UserReward> userRewards = new ArrayList<>();
     private int idCounter = 1;
 
-    public RewardService() {
+    public RewardServiceStrategy () {
 
 
         rewards.add(new BadgeReward(1, 100, "Bronze"));

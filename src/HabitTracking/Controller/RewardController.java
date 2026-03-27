@@ -2,16 +2,17 @@ package HabitTracking.Controller;
 
 
 import HabitTracking.Model.User;
-import HabitTracking.Service.RewardService;
+
+import HabitTracking.Service.RewardServiceStrategy;
 
 import java.util.Scanner;
 
 public class RewardController {
 
-    private RewardService rewardService;
+    private RewardServiceStrategy rewardService;
 
     public RewardController() {
-        this.rewardService = new RewardService();
+        this.rewardService = new RewardServiceStrategy();
     }
 
     public void checkRewards(User user) {

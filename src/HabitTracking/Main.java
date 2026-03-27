@@ -11,7 +11,7 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
-        HabitTracking.Controller.UserController controller = new UserController(scan);
+     UserController controller = new UserController(scan);
 
         controller.initialize();
         controller.startApp();
